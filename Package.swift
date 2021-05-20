@@ -1,4 +1,4 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.0
 
 import PackageDescription
 
@@ -11,7 +11,7 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/IBM-Swift/BlueSocket.git", from: "0.12.78")
+    .package(url: "https://github.com/IBM-Swift/BlueSocket.git", from: "1.0.52")
   ],
   targets: [
     .target(
